@@ -1,4 +1,4 @@
-#https://www.codingame.com/ide/puzzle/mime-type
+# https://www.codingame.com/ide/puzzle/mime-type
 
 table = {}
 
@@ -10,7 +10,7 @@ for i in range(n):
     ext, mt = input().split()
     table[ext.lower()] = mt
 for i in range(q):
-    fname = input().split('.') # One file name per line.
+    fname = input().split('.')  # One file name per line.
 
     if len(fname) > 1:
         try:
