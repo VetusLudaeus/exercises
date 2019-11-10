@@ -1,10 +1,10 @@
 from typing import List
 
-n = int(input("Enter the number of horses to compare "))
+n = int(input())
 horses = []
 
 for i in range(n):
-    pi = int(input("Enter the horse strength under the number - " + str(i+1)))
+    pi = int(input())
     horses.append(pi)
 
 horses.sort()
